@@ -1,7 +1,7 @@
 ---
 layout: single
-title: Mischief - Hack The Box
-date: 2019-01-05
+title: Mi primer artículo
+date: 2020-10-02
 classes: wide
 header:
   teaser: /assets/images/htb-writeup-mischief/mischief_logo.png
