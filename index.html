@@ -10,16 +10,16 @@ author_profile: true
 <form method="POST" action="https://mainnet.demo.btcpayserver.org/api/v1/invoices" class="btcpay-form btcpay-form--block">
   <input type="hidden" name="storeId" value="25jXJzBYCwvA7fau8CT7phYuPGp5SpXeBdRoJncZizXE" />
   <div class="btcpay-custom-container">
-      <input class="btcpay-input-price" type="number" name="price" min="1" max="20" step="1" value="1" data-price="1" style="width:209px;" oninput="handlePriceInput(event);return false" onchange="handleSliderChange(event);return false" />
+      <input class="btcpay-input-price" type="number" name="price" min="1" max="20" step="1" value="1" data-price="1" style="width:146px;" oninput="handlePriceInput(event);return false" onchange="handleSliderChange(event);return false" />
     <select name="currency">
       <option value="USD" selected>USD</option>
       <option value="GBP">GBP</option>
       <option value="EUR">EUR</option>
       <option value="BTC">BTC</option>
     </select>
-    <input type="range" class="btcpay-input-range" min="1" max="20" step="1" value="1" style="width:209px;margin-bottom:15px;" oninput="handleSliderInput(event);return false" />
+    <input type="range" class="btcpay-input-range" min="1" max="20" step="1" value="1" style="width:146px;margin-bottom:15px;" oninput="handleSliderInput(event);return false" />
   </div>
-  <input type="image" class="submit" name="submit" src="https://mainnet.demo.btcpayserver.org/img/paybutton/pay.svg" style="width:209px" alt="Pay with BTCPay Server, a Self-Hosted Bitcoin Payment Processor">
+  <input type="image" class="submit" name="submit" src="https://mainnet.demo.btcpayserver.org/img/paybutton/pay.svg" style="width:146px" alt="Pay with BTCPay Server, a Self-Hosted Bitcoin Payment Processor">
 </form>
 <script>
     function handleSliderChange(event) {
