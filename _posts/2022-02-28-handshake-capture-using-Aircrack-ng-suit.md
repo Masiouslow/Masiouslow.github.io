@@ -34,8 +34,8 @@ lo        no wireless extensions.
 
 eth0      no wireless extensions.
 
-wlan0     IEEE 802.11  ESSID:"MIWIFI_d6hP"  
-          Mode:Managed  Frequency:5.24 GHz  Access Point: 50:78:B3:EE:61:35   
+wlan0     IEEE 802.11  ESSID:"Hello_World"  
+          Mode:Managed  Frequency:5.24 GHz  Access Point: 50:76:B3:EE:60:34   
           Bit Rate=292.5 Mb/s   Tx-Power=17 dBm   
           Retry short limit:7   RTS thr:off   Fragment thr:off
           Power Management:on
