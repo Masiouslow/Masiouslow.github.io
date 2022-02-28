@@ -55,4 +55,4 @@ wlx00c0caab5835  unassociated  Nickname:"WIFI@RTL8814AU"
           Tx excessive retries:0  Invalid misc:0   Missed beacon:0
 
 ```
-Esto nos sirve para identificar cuál es el adaptador con el que trabajaremos, en mi caso es:´wlx00c0caab5835´ también podemos ver en que estado se encuentra: `Mode:Managed`
+Esto nos sirve para identificar cuál es el adaptador con el que trabajaremos, en mi caso es:´wlx00c0caab5835´también podemos ver en que estado se encuentra: `Mode:Managed`
