@@ -18,11 +18,23 @@ tags:
 
 En este post te enseñaré a capturar un handshake de una red wifi utilizando la suite Aircrak-ng.
 
-![](/assets/images/handshake capture_01/handshake_muy_pequeño.png)
-
 Para la captura del handshake, es necesario tener un adaptador wifi que permita habilitar el modo monitor, esto es necesario para poner nuestro adaptador en modo escucha.
 En este caso yo estoy utilizando un adaptador de la marca Alfa, modelo AWUS1900, para más información sobre adaptadores puedes consultar las recomendaciones de la página de [aircrack-ng](https://www.aircrack-ng.org/doku.php?id=faq) o el listado de [kalitut](https://kalitut.com/usb-wi-fi-adapters-supporting-monitor/)
 
-
 ![](/assets/images/handshake capture_01/antena_pwq.png)
+
+sd
+dd
+
+
+dd
+
+
+dd
+
+
+
+
+
+d
 
