@@ -29,7 +29,26 @@ En este caso yo estoy utilizando un adaptador de la marca Alfa, modelo AWUS1900,
 
 Lo primero que necesitamos hacer es identificar nuestras interfaces, para ello utilizaremos el comando `iwconfig`
 
-Lo primero que necesitamos hacer es identificar nuestras interfaces, para ello utilizaremos el comando 
-``` 
-iwconfig 
+```
+lo        no wireless extensions.
+
+eth0      no wireless extensions.
+
+wlan0     IEEE 802.11  ESSID:"MIWIFI_d6hP"  
+          Mode:Managed  Frequency:5.24 GHz  Access Point: 50:78:B3:EE:61:35   
+          Bit Rate=292.5 Mb/s   Tx-Power=17 dBm   
+          Retry short limit:7   RTS thr:off   Fragment thr:off
+          Power Management:on
+          Link Quality=52/70  Signal level=-58 dBm  
+          Rx invalid nwid:0  Rx invalid crypt:0  Rx invalid frag:0
+          Tx excessive retries:0  Invalid misc:0   Missed beacon:0
+
+wlx00c0caab5835  unassociated  Nickname:"WIFI@RTL8814AU"
+          Mode:Managed  Frequency=2.412 GHz  Access Point: Not-Associated   
+          Sensitivity:0/0  
+          Retry:off   RTS thr:off   Fragment thr:off
+          Power Management:off
+          Link Quality=0/100  Signal level=0 dBm  Noise level=0 dBm
+          Rx invalid nwid:0  Rx invalid crypt:0  Rx invalid frag:0
+          Tx excessive retries:0  Invalid misc:0   Missed beacon:0
 ```
