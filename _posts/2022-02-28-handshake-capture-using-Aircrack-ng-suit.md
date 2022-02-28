@@ -28,4 +28,7 @@ En este caso yo estoy utilizando un adaptador de la marca Alfa, modelo AWUS1900,
 ## Punto de inicio
 
 Lo primero que necesitamos hacer es identificar nuestras interfaces, para ello utilizaremos el comando `iwconfig`
-Lo primero que necesitamos hacer es identificar nuestras interfaces, para ello utilizaremos el comando ```iwconfig```
+Lo primero que necesitamos hacer es identificar nuestras interfaces, para ello utilizaremos el comando 
+``` 
+iwconfig 
+```
