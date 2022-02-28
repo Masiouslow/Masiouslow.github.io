@@ -27,15 +27,17 @@ En este caso yo estoy utilizando un adaptador de la marca Alfa, modelo AWUS1900,
 
 ## Punto de inicio
 
-Lo primero que necesitamos hacer es identificar nuestras interfaces, para ello utilizaremos el comando `iwconfig`
+Lo primero que necesitamos hacer es identificar nuestras interfaces, para ello utilizaremos el comando `iwconfig`:
 
 ```
+┌[parrot]─[00:00-00/00]─[/home/masiouslow]
+└╼masiouslow$iwconfig       
 lo        no wireless extensions.
 
 eth0      no wireless extensions.
 
-wlan0     IEEE 802.11  ESSID:"Hello_World"  
-          Mode:Managed  Frequency:5.24 GHz  Access Point: 50:76:B3:EE:60:34   
+wlan0     IEEE 802.11  ESSID:"Hello_world"  
+          Mode:Managed  Frequency:5.24 GHz  Access Point: 50:77:B3:EE:65:33   
           Bit Rate=292.5 Mb/s   Tx-Power=17 dBm   
           Retry short limit:7   RTS thr:off   Fragment thr:off
           Power Management:on
@@ -51,4 +53,5 @@ wlx00c0caab5835  unassociated  Nickname:"WIFI@RTL8814AU"
           Link Quality=0/100  Signal level=0 dBm  Noise level=0 dBm
           Rx invalid nwid:0  Rx invalid crypt:0  Rx invalid frag:0
           Tx excessive retries:0  Invalid misc:0   Missed beacon:0
+
 ```
