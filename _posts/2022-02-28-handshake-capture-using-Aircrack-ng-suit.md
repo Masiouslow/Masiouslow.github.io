@@ -79,8 +79,10 @@ El parámetro `check` lista los procesos que interfieren, `kill` los elimina.
 
 
 ## Modo monitor
-Ahora activaremos el modo monitor, esto permite que nuestro adaptador pueda capturar paquetes
+Ahora activaremos el modo monitor, esto permite que nuestro adaptador pueda capturar paquetes.
+
 Para activar el modo monitor existen varias opciones, la que uso yo es con airmon-ng.
+
 Introducimos en la terminal el siguiente comando `sudo airmon-ng start wlx00c0caab5835` en tu caso has de substituir `wlx00c0caab5835` por el nombre de tu adaptador, suele ser wlan0
 
 ```
