@@ -63,3 +63,16 @@ Esto nos sirve para identificar cuál es el adaptador con el que trabajaremos, e
 ## Modo monitor y matar los procesos que interfieren
 
 El siguiente paso consiste en matar los procesos que interfieren con la suite de Aircrak-ng, podrían causar un mal funcionamiento, para ello ejecutamos el siguiente comando: `sudo airmon-ng check kill`
+
+```
+┌[parrot]─[00:00-00/00]─[/home/masiouslow]
+└╼masiouslow$sudo airmon-ng check kill
+[sudo] password for masiouslow: 
+
+Killing these processes:
+
+    PID Name
+    798 wpa_supplicant
+
+
+```
