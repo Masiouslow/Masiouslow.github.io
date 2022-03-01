@@ -62,4 +62,4 @@ Esto nos sirve para identificar cuál es el adaptador con el que trabajaremos, e
 
 ## Modo monitor y matar los procesos que interfieren
 
-El siguiente paso consiste en matar los procesos que interfieren con la suite de Aircrak-ng, podrian causar un mal funcionamiento, para ello ejecutamos el siguiente comando: `sudo airmon-ng check kill`
+El siguiente paso consiste en matar los procesos que interfieren con la suite de Aircrak-ng, podrían causar un mal funcionamiento, para ello ejecutamos el siguiente comando: `sudo airmon-ng check kill`
