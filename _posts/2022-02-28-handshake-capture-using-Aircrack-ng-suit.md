@@ -60,9 +60,9 @@ wlx00c0caab5835  unassociated  Nickname:"WIFI@RTL8814AU"
 Esto nos sirve para identificar cuál es el adaptador con el que trabajaremos, en mi caso es: `wlx00c0caab5835` también podemos ver en que estado se encuentra: `Mode:Managed`
 
 
-## Modo monitor y matar los procesos que interfieren
+## Matar los procesos que interfieren
 
-El siguiente paso consiste en matar los procesos que interfieren con la suite de Aircrak-ng, podrían causar un mal funcionamiento, para ello ejecutamos el siguiente comando: `sudo airmon-ng check kill`
+El siguiente paso consiste en matar los procesos que interfieren con la suite de Aircrak-ng, podrían causar un mal funcionamiento, para ello ejecutamos el comando `sudo airmon-ng check kill`:
 
 ```
 ┌[parrot]─[00:00-00/00]─[/home/masiouslow]
@@ -74,5 +74,27 @@ Killing these processes:
     PID Name
     798 wpa_supplicant
 
+```
+El parámetro `check` lista los procesos que interfieren, `kill` los elimina.
+
+
+## Modo monitor
+Ahora activaremos el modo monitor, esto permite que nuestro adaptador pueda capturar paquetes
+Para activar el modo monitor existen varias opciones, la que uso yo es con airmon-ng.
+Introducimos en la terminal el siguiente comando `sudo airmon-ng start wlx00c0caab5835` en tu caso has de substituir `wlx00c0caab5835` por el nombre de tu adaptador, suele ser wlan0
 
 ```
+┌[parrot]─[00:00-00/00]─[/home/masiouslow]
+└╼masiouslow$sudo airmon-ng start wlx00c0caab5835
+[sudo] password for masiouslow: 
+
+
+PHY	Interface	Driver		Chipset
+
+phy0	wlan0		rtw_8822be	Realtek Semiconductor Co., Ltd. RTL8822BE 802.11a/b/g/n/ac WiFi adapter
+phy1	wlx00c0caab5835	rtl8814au	Realtek Semiconductor Corp. RTL8814AU 802.11a/b/g/n/ac
+		(monitor mode enabled)
+
+```
+
+Es posible que al ejecutar este comando el nombre del adaptador cambie y se agregue la terminación `mon` al nombre original, en mi caso no, pero se ha de  tener en cuenta.
