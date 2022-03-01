@@ -100,3 +100,31 @@ phy1	wlx00c0caab5835	rtl8814au	Realtek Semiconductor Corp. RTL8814AU 802.11a/b/g
 ```
 
 Es posible que al ejecutar este comando el nombre del adaptador cambie y se agregue la terminación `mon` al nombre original, en mi caso no, pero se ha de  tener en cuenta.
+
+para verificar que lo hemos hecho correctamente podemos escribir de nuevo `iwconfig`:
+
+```
+┌[parrot]─[00:00-00/00]─[/home/masiouslow]
+└╼masiouslow$iwconfig       
+lo        no wireless extensions.
+
+eth0      no wireless extensions.
+
+wlan0     IEEE 802.11  ESSID:off/any  
+          Mode:Managed  Frequency:5.24 GHz  Access Point: Not-Associated   
+          Tx-Power=23 dBm   
+          Retry short limit:7   RTS thr:off   Fragment thr:off
+          Power Management:on
+          
+wlx00c0caab5835  IEEE 802.11AC  ESSID:"MIWIFI_d6hP"  Nickname:"WIFI@RTL8814AU"
+          Mode:Monitor  Frequency:2.457 GHz  Access Point: 50:78:B3:EE:61:35   
+          Sensitivity:0/0  
+          Retry:off   RTS thr:off   Fragment thr:off
+          Power Management:off
+          Link Quality=1/100  Signal level=-99 dBm  Noise level=0 dBm
+          Rx invalid nwid:0  Rx invalid crypt:0  Rx invalid frag:0
+          Tx excessive retries:0  Invalid misc:0   Missed beacon:0
+```
+vemos que el estado ya ha cambiado a modo monitor `Mode:Monitor`
+
+## 
