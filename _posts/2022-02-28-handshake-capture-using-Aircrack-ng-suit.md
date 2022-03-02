@@ -138,14 +138,20 @@ el comando para realizar este listado es `sudo airodump-ng wlx00c0caab5835` pero
 
 ```
  BSSID              PWR  Beacons    #Data, #/s  CH   MB   ENC CIPHER  AUTH ESSID
-                                                                                                    
- D3-DF-45-30-D2-E5  -47       62        0    0   1  195   WPA2 CCMP   PSK  Atacks_this                                                                                                      
- 43-05-D9-79-A0-11  -73       60       16    0   1  130   WPA2 CCMP   PSK  Test_1                                                                                                    
- 23-C9-8C-B7-B5-18  -72       66       13    0   6  130   WPA2 CCMP   PSK  Test_2                                                                                               
- 64-FE-B8-8E-FB-F7  -75       62        5    0   1  130   WPA2 CCMP   PSK  Test_3                                                                                               
- 96-BD-08-0E-FD-AA  -76       70       18    0  11  130   WPA2 CCMP   PSK  Test_4                                                                                                
- BA-F0-C0-20-C1-23  -76       38        9    0  11  130   WPA2 CCMP   PSK  Test_5                                                                                                                                                                                                                                   
+                                                                                   
+ 1C:B0:44:4C:CD:2F  -47       62        0    0   1  195   WPA2 CCMP   PSK  Atacks_this
+ 
+ 43-05-D9-79-A0-11  -73       60       16    0   1  130   WPA2 CCMP   PSK  Test_1
+ 
+ 23-C9-8C-B7-B5-18  -72       66       13    0   6  130   WPA2 CCMP   PSK  Test_2 
+ 
+ 64-FE-B8-8E-FB-F7  -75       62        5    0   1  130   WPA2 CCMP   PSK  Test_3
+ 
+ 96-BD-08-0E-FD-AA  -76       70       18    0  11  130   WPA2 CCMP   PSK  Test_4
+ 
+ BA-F0-C0-20-C1-23  -76       38        9    0  11  130   WPA2 CCMP   PSK  Test_5
+ 
  BSSID              STATION            PWR   Rate    Lost    Frames  Notes  Probes
 
- F4:69:42:90:FD:AF  7C-1D-00-52-8F-68  -83    0 - 1      0        2                                                                                    
+ F4:69:42:90:FD:AF  7C-1D-00-52-8F-68  -83    0 - 1      0        2
 ```
