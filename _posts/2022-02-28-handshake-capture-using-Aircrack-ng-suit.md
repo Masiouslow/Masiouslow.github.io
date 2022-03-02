@@ -125,6 +125,27 @@ wlx00c0caab5835  IEEE 802.11AC  ESSID:"MIWIFI_d6hP"  Nickname:"WIFI@RTL8814AU"
           Rx invalid nwid:0  Rx invalid crypt:0  Rx invalid frag:0
           Tx excessive retries:0  Invalid misc:0   Missed beacon:0
 ```
-vemos que el estado ya ha cambiado a modo monitor `Mode:Monitor`
+Después de esto vemos que el estado ya ha cambiado a modo monitor `Mode:Monitor`
 
-## 
+## Descubrir redes wifi disponibles
+
+Para fijar un objetivo primero necesitamos escanear la red que tenemos a nuestro alcanze.
+
+Lo que haremos ahora será listar los puntos de acceso de toda la red,  aparte de definir un objetivo claro nos permite tener un poco más de información
+
+
+el comando para realizar este listado es `sudo airodump-ng wlx00c0caab5835` pero recuerda que dependiendo del nombre de tu adaptador tendrás que cambiar el último parámetro:
+
+```
+ BSSID              PWR  Beacons    #Data, #/s  CH   MB   ENC CIPHER  AUTH ESSID
+                                                                                                    
+ D3-DF-45-30-D2-E5  -47       62        0    0   1  195   WPA2 CCMP   PSK  Atacks_this                                                                                                      
+ 43-05-D9-79-A0-11  -73       60       16    0   1  130   WPA2 CCMP   PSK  Test_1                                                                                                    
+ 23-C9-8C-B7-B5-18  -72       66       13    0   6  130   WPA2 CCMP   PSK  Test_2                                                                                               
+ 64-FE-B8-8E-FB-F7  -75       62        5    0   1  130   WPA2 CCMP   PSK  Test_3                                                                                               
+ 96-BD-08-0E-FD-AA  -76       70       18    0  11  130   WPA2 CCMP   PSK  Test_4                                                                                                
+ BA-F0-C0-20-C1-23  -76       38        9    0  11  130   WPA2 CCMP   PSK  Test_5                                                                                                                                                                                                                                   
+ BSSID              STATION            PWR   Rate    Lost    Frames  Notes  Probes
+
+ F4:69:42:90:FD:AF  7C-1D-00-52-8F-68  -83    0 - 1      0        2                                                                                    
+```
