@@ -83,7 +83,7 @@ Ahora activaremos el modo monitor, esto permite que nuestro adaptador pueda capt
 
 Para activar el modo monitor existen varias opciones, la que uso yo es con airmon-ng.
 
-Introducimos en la terminal el siguiente comando `sudo airmon-ng start wlx00c0caab5835` en tu caso has de substituir `wlx00c0caab5835` por el nombre de tu adaptador, suele ser wlan0
+Introducimos en la terminal el siguiente comando `sudo airmon-ng start wlx00c0caab5835` en tu caso has de substituir `wlx00c0caab5835` por el nombre de tu adaptador.
 
 ```
 ┌[parrot]─[00:00-00/00]─[/home/masiouslow]
@@ -154,4 +154,8 @@ el comando para realizar este listado es `sudo airodump-ng wlx00c0caab5835` pero
  BSSID              STATION            PWR   Rate    Lost    Frames  Notes  Probes
 
  F4:69:42:90:FD:AF  7C-1D-00-52-8F-68  -83    0 - 1      0        2
+```
+Una vez listado todas las redes podemos detener el proceso de búsqueda `Ctrl+C`:
+```
+Quitting...
 ```
