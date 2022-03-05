@@ -155,7 +155,7 @@ el comando para realizar este listado es `sudo airodump-ng wlx00c0caab5835` pero
 
  F4:69:42:90:FD:AF  7C-1D-00-52-8F-68  -83    0 - 1      0        2
 ```
-Una vez listado todas las redes podemos detener el proceso de búsqueda `Ctrl+C`:
+Una vez listado nuestro objetivo podemos detener el proceso de búsqueda `Ctrl+C`:
 ```
 Quitting...
 ```
