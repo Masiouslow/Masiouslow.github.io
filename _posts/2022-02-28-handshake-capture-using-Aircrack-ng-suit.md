@@ -159,3 +159,8 @@ Una vez listado nuestro objetivo podemos detener el proceso de búsqueda `Ctrl+C
 ```
 Quitting...
 ```
+Una vez hecho esto vamos a recolectar la información útil al momento de capturar el handshake.
+
+Lo que vamos a necesitar es la dirección mac de la red (BSSID) y el canal (CH) los demás datos nos aportan también mucha información útil, si quieres profundizar en el tema te recomiendo que visites la guía de [Airodump-ng](https://www.aircrack-ng.org/doku.php?id=airodump-ng)
+
+ 
