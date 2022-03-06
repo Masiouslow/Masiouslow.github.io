@@ -192,4 +192,6 @@ BSSID STATION PWR Rate Lost Frames Notes Probes
 
 1C:B0:44:4C:CD:2F 28:16:7F:6D:4C:2C -45 0 - 1e 141 23
 ```
-Ahora sí, vemos que hay un cliente '(28:16:7F:6D:4C:2C)' conectado al punto de acceso
+Ahora sí, vemos que hay un cliente '28:16:7F:6D:4C:2C' conectado al punto de acceso
+
+Con esto ya tendriamos todos los datos que necesitamos para la captura del handshake
