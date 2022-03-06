@@ -163,7 +163,33 @@ Una vez hecho esto vamos a recolectar la información que nos será útil al mom
 
 Lo que vamos a necesitar es la dirección mac de la red `(BSSID)` y el canal `(CH)` los demás datos nos aportan también mucha información, si quieres profundizar en el tema te recomiendo que visites la guía de [Airodump-ng](https://www.aircrack-ng.org/doku.php?id=airodump-ng)
 
-La red que voy a atacar es la que se llama `Atacks_this` como podemos ver el BSSID es `1C:B0:44:4C:CD:2F` y esta en el canal `1`
+La red que voy a atacar es la que se llama `Atacks_this` como podemos ver el BSSID es `1C:B0:44:4C:CD:2F` y está en el canal `1`.
 
+## Nos centramos en el objetivo
 
- 
+Con los datos previamente obtenidos vamos a escanear solamente a nuestro objetivo, esto nos permite ver con facilidad los clientes que están conectados a la red.
+Esto lo pedemos hacer con el mismo comando de antes, pero agregando -d más el BSSID `sudo airodump-ng wlx00c0caab5835 -d 1C:B0:44:4C:CD:2F`:
+```
+CH 1 ][ Elapsed: 24 s ][ 2022-03-06 20:45
+
+BSSID PWR Beacons #Data, #/s CH MB ENC CIPHER AUTH ESSID
+
+1C:B0:44:4C:CD:2F -28 85 0 0 11 130 WPA2 CCMP PSK Try_to_hack_this
+
+BSSID STATION PWR Rate Lost Frames Notes Probes
+
+```
+Podemos ver que ahora solo nos muestra la red a la que queremos atacar, si nos fijamos en la segunda fila, debajo de donde pone STATION no aparece nada, eso es porque no hay ningún cliente conectado a la red, voy a conectar un móvil para que veas la diferencia:
+
+```
+CH 2 ][ Elapsed: 0 s ][ 2022-03-06 20:52
+
+BSSID PWR Beacons #Data, #/s CH MB ENC CIPHER AUTH ESSID
+
+1C:B0:44:4C:CD:2F -29 15 3 0 11 130 WPA2 CCMP PSK Try_to_hack_this
+
+BSSID STATION PWR Rate Lost Frames Notes Probes
+
+1C:B0:44:4C:CD:2F 28:16:7F:6D:4C:2C -45 0 - 1e 141 23
+```
+Ahora sí, vemos que hay un cliente '(28:16:7F:6D:4C:2C)' conectado al punto de acceso
