@@ -16,7 +16,7 @@ tags:
 
 ---
 
-En este post te enseñaré a capturar un handshake de una red wifi utilizando la suite Aircrak-ng con el metodo de desautenticación.
+En este post te enseñaré a capturar un handshake de una red wifi utilizando la suite Aircrak-ng con el método de desautenticación.
 
 Un handshake es una petición entre un cliente y un punto de acceso para establecer una conexión. Cuando capturamos un Handshake, no se captura la contraseña, sino una serie de parámetros, donde está la contraseña Wifi pero cifrada.
 
@@ -103,7 +103,7 @@ phy1	wlx00c0caab5835	rtl8814au	Realtek Semiconductor Corp. RTL8814AU 802.11a/b/g
 
 Es posible que al ejecutar este comando el nombre del adaptador cambie y se agregue la terminación `mon` al nombre original, en mi caso no, pero se ha de  tener en cuenta.
 
-para verificar que lo hemos hecho correctamente podemos escribir de nuevo `iwconfig`:
+Para verificar que lo hemos hecho correctamente podemos escribir de nuevo `iwconfig`:
 
 ```
 ┌[parrot]─[00:00-00/00]─[/home/masiouslow]
@@ -131,7 +131,7 @@ Después de esto vemos que el estado ya ha cambiado a modo monitor `Mode:Monitor
 
 ## Descubrir redes wifi disponibles
 
-Para fijar un objetivo primero necesitamos escanear los puntos de acceso que tenemos a nuestro alcanze.
+Para fijar un objetivo primero necesitamos escanear los puntos de acceso que tenemos a nuestro alcance.
 
 Lo que haremos ahora será listar los puntos de acceso de toda la red,  aparte de definir un objetivo claro nos permite tener un poco más de información
 
@@ -199,8 +199,8 @@ Ahora sí, vemos que hay un cliente `28:16:7F:6D:4C:2C` conectado al punto de ac
 Con esto ya tendríamos todos los datos que necesitamos para la captura del handshake
 
 ## A la espera de un handshake
-A continuacion nos vamos a poner en escucha, a la espera de capturar un handshake.
-Abrimos una nueva ventana y ejecutamos este comando ```sudo airodump-ng -w test1 -c 1 --bssid 1C:B0:44:4C:CD:2F wlx00c0caab5835```:
+A continuación nos vamos a poner en escucha, a la espera de capturar un handshake.
+Abrimos una nueva ventana y ejecutamos este comando ```sudo airodump-ng -w test1 -c 11 --bssid 1C:B0:44:4C:CD:2F wlx00c0caab5835```:
 
 ```
  CH  1 ][ Elapsed: 2 mins ][ 2022-03-19 20:32 ][ fixed channel wlx00c0caab5835: 2 
@@ -213,8 +213,13 @@ Abrimos una nueva ventana y ejecutamos este comando ```sudo airodump-ng -w test1
 
  1C:B0:44:4C:CD:2F  28:16:7F:6D:4C:2C  -30    1e- 1e   125      137 
 ```
-En `-w test` asignamos el nombre del archivo con el que queremos que se guarde nuestro handshake una vez capturado
-Con `-c 1` 
+En `-w test` asignamos el nombre del archivo con el que queremos que se guarde nuestro handshake.
+
+Con `-c 11` escogemos el canal en el que opera nuestro objetivo
+
+Asignamos el punto de acceso con `--bssid 1C:B0:44:4C:CD:2F`
+
+Y por último seleccionamos nuestro adaptador de red `wlx00c0caab5835`
 
 
 ## Ataque de desautenticación
