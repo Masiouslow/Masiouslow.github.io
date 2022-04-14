@@ -15,3 +15,7 @@ tags:
 
 
 ---
+
+A continuación enseñaré de forma gráfica el proceso de instalación de Parrot Sec en virtualbox
+
+Virtualbox es una aplicación que nos permite crear máquinas virtuales, es decir, podremos estar ejecutando dos sistemas operativos o mas  a la vez, en este caso win10 como sistema operativo principal y Parrot Sec ejecutándose en la máquina virtual
