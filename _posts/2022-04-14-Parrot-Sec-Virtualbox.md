@@ -40,3 +40,12 @@ Se te descargará el instalador del programa, ejecútalo y sigue las instruccion
 ![](/assets/images/Captura.PNG)
 
 ## Descargar la imagen de nuestro sistema operativo
+
+Una vez instalado el programa de virtualización, necesitamos la imagen del sistema operativo que queremos instalar, en este caso parrot sec.
+
+Para ello vamos a la [página de descarga](https://www.parrotsec.org/download/) de parrot, seleccionamos la opción de Security Edition y le damos al botón de download
+
+![](/assets/images/sdfsdfsdf.PNG)
+
+Cuando finalice la descarga nos dejara un archivo como este:
+![](/assets/images/Capturaimagen.PNG)
