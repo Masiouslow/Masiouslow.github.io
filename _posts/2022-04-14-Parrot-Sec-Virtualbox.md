@@ -109,7 +109,7 @@ Nos preguntará como queremos gestionar las particiones, seleccionamos borrar di
 
 Después de esto seguimos rellenando los datos que nos pide, le damos a next y comprobamos que todo este según queremos, confirmamos dándole a install
 
-![](/assets/images/Captura.PNG)
+![](/assets/images/sdgesgs.PNG)
 
 Una vez que la instalación haya acabado reiniciamos la máquina, cuando finalice de reiniciar la apagamos por completo
 
