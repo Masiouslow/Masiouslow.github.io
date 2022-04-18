@@ -115,7 +115,7 @@ Una vez que la instalación haya acabado reiniciamos la máquina, cuando finalic
 
 Entramos en configuración y vamos al la sección de almacenamiento
 
-![](/assets/images/.PNG)
+![](/assets/images/amacenamiento.PNG)
 
 Tenemos que borrar el disco que está dentro del Controlador: IDE
 
