@@ -50,3 +50,33 @@ Para ello vamos a la [página de descarga](https://www.parrotsec.org/download/) 
 Cuando finalice la descarga nos dejara un archivo como este:
 
 ![](/assets/images/Capturaimagen.PNG)
+ 
+Con esto ya tenemos todo preparado para la virtualización
+
+## Crear la máquina virtual
+
+Lo siguiente que tenemos que hacer es abrir virtualbox y darle donde pone nueva (CTRL+N)
+
+![](/assets/images/modo experto.PNG)
+
+seleccionamos el modo experto
+
+![](/assets/images/modo guiado.PNG)
+
+Primero nos pedirá un nombre para la máquina, el tipo de sistema operativo y la versión del mismo
+
+Para el tipo y la version de SO que queremos virtualizar ponemos Linux y Ubuntu (64-bit)
+
+![](/assets/images/tipo y version.PNG)
+
+un poco mas abajo nos pide la cantidad de memoria RAM que le queremos asignar a la máquina, esto va a gusto del consumidor, yo normalmente le pongo el máximo dentro de la franja verde
+
+![](/assets/images/RAM.PNG)
+
+En el apartado de disco duro, dejamos marcada la opción de "Crear un disco duro virtual ahora"
+
+![](/assets/images/disco duroç.PNG)
+
+Le damos a crear y nos pedirá que asignemos el tamaño del disco duro para la máquina, recomiendo dar en entre 20 GB y 30 GB
+
+![](/assets/images/espaciodiscoduro.PNG)
