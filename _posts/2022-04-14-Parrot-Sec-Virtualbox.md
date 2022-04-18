@@ -23,11 +23,16 @@ Virtualbox es una aplicación que nos permite crear máquinas virtuales, es deci
 ## Instalar Virtualbox
 Para empezar necesitamos instalar el programa virtualbox, que será el que nos permitirá generar las máquinas virtuales.
 
-primero entra en la web de [Virtualbox](https://www.virtualbox.org/)
+Primero entra en la web de [Virtualbox](https://www.virtualbox.org/)
+
+![](/assets/images/Capturakkk.PNG)
 
 Ves al apartado de [descargas](https://www.virtualbox.org/wiki/Downloads)
 
+![](/assets/images/downloads.PNG)
+
 Una vez alli seleciona la opcion de [Windows hosts](https://download.virtualbox.org/virtualbox/6.1.32/VirtualBox-6.1.32-149290-Win.exe)
 
+![](/assets/images/windows host.PNG)
 
 ## Descargar la imagen de nuestro sistema operativo
