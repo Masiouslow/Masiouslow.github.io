@@ -83,4 +83,22 @@ En el apartado de Sistema, en la sesión de Procesador podemos aumentar la canti
 
 ![](/assets/images/CPU.PNG)
 
+con esto ya estaríamos listos, de todas formas esto se puede modificar después
+
 ## Iniciar la máquina
+
+En el menú principal, le damos a iniciar, nos abrirá una ventana, donde nos pide que seleccionemos la imagen del SO que queremos arrancar
+
+![](/assets/images/iso.PNG)
+
+Iniciamos...
+
+En el menú que se nos abrirá seleccionamos Try/Install
+
+![](/assets/images/try.PNG)
+
+Al arrancar vemos que el sistema operativo está preparado, pero aún lo hemos de instalar, ahora mismo ningún cambio que realizamos se guarda.
+
+Abrimos el instalador, seguimos todos los pasos y cuando finalice la instalación ya lo tendremos todo listo.
+
+![](/assets/images/installll.PNG)
