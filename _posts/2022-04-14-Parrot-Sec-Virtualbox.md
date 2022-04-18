@@ -48,4 +48,5 @@ Para ello vamos a la [página de descarga](https://www.parrotsec.org/download/) 
 ![](/assets/images/sdfsdfsdf.PNG)
 
 Cuando finalice la descarga nos dejara un archivo como este:
+
 ![](/assets/images/Capturaimagen.PNG)
