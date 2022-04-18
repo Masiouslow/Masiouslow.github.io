@@ -31,7 +31,7 @@ Ves al apartado de [descargas](https://www.virtualbox.org/wiki/Downloads)
 
 ![](/assets/images/downloads.PNG)
 
-Una vez alli seleciona la opcion de [Windows hosts](https://download.virtualbox.org/virtualbox/6.1.32/VirtualBox-6.1.32-149290-Win.exe)
+Una vez alli, selecciona la opción de [Windows hosts](https://download.virtualbox.org/virtualbox/6.1.32/VirtualBox-6.1.32-149290-Win.exe)
 
 ![](/assets/images/windowshost.PNG)
 
@@ -65,7 +65,7 @@ Para el tipo y la version de SO que queremos virtualizar ponemos Linux y Ubuntu 
 
 ![](/assets/images/tipoyversion.PNG)
 
-un poco mas abajo nos pide la cantidad de memoria RAM que le queremos asignar a la máquina, esto va a gusto del consumidor, yo normalmente le pongo el máximo dentro de la franja verde
+un poco más abajo nos pide la cantidad de memoria RAM que le queremos asignar a la máquina, esto va a gusto del consumidor, yo normalmente le pongo el máximo dentro de la franja verde
 
 ![](/assets/images/RAM.PNG)
 
