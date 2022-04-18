@@ -76,3 +76,9 @@ En el apartado de disco duro, dejamos marcada la opción de "Crear un disco duro
 Le damos a crear y nos pedirá que asignemos el tamaño del disco duro para la máquina, recomiendo dar en entre 20 GB y 30 GB
 
 ![](/assets/images/espaciodiscoduro.PNG)
+
+Para finalizar estas configuraciones podemos darle a configuración o CTRL + S
+
+En el apartado de Sistema, en la sesión de Procesador podemos aumentar la cantidad de CPU destinada a la máquina, la cantidad a seleccionar depende de tu procesador, recomiendo poner el máximo dentro de la franja verde.
+
+![](/assets/images/CPU.PNG)
