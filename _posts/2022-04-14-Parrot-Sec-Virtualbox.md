@@ -25,7 +25,7 @@ Para empezar necesitamos instalar el programa virtualbox, que será el que nos p
 
 Primero entra en la web de [Virtualbox](https://www.virtualbox.org/)
 
-![](/assets/images/Capturakkk.PNG)
+![](/assets/images/dfdfddse.PNG)
 
 Ves al apartado de [descargas](https://www.virtualbox.org/wiki/Downloads)
 
