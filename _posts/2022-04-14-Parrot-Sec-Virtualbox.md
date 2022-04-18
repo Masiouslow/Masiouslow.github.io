@@ -33,7 +33,7 @@ Ves al apartado de [descargas](https://www.virtualbox.org/wiki/Downloads)
 
 Una vez alli seleciona la opcion de [Windows hosts](https://download.virtualbox.org/virtualbox/6.1.32/VirtualBox-6.1.32-149290-Win.exe)
 
-![](/assets/images/windows host.PNG)
+![](/assets/images/windowshost.PNG)
 
 Se te descargará el instalador del programa, ejecútalo y sigue las instrucciones
 
@@ -53,17 +53,17 @@ Con esto ya tenemos todo preparado para la virtualización
 
 Lo siguiente que tenemos que hacer es abrir virtualbox y darle donde pone nueva (CTRL+N)
 
-![](/assets/images/modo-experto.PNG)
+![](/assets/images/modoexperto.PNG)
 
 seleccionamos el modo experto
 
-![](/assets/images/modo-guiado.PNG)
+![](/assets/images/modoguiado.PNG)
 
 Primero nos pedirá un nombre para la máquina, el tipo de sistema operativo y la versión del mismo
 
 Para el tipo y la version de SO que queremos virtualizar ponemos Linux y Ubuntu (64-bit)
 
-![](/assets/images/tipo-y-version.PNG)
+![](/assets/images/tipoyversion.PNG)
 
 un poco mas abajo nos pide la cantidad de memoria RAM que le queremos asignar a la máquina, esto va a gusto del consumidor, yo normalmente le pongo el máximo dentro de la franja verde
 
@@ -71,7 +71,7 @@ un poco mas abajo nos pide la cantidad de memoria RAM que le queremos asignar a 
 
 En el apartado de disco duro, dejamos marcada la opción de "Crear un disco duro virtual ahora"
 
-![](/assets/images/disco-duroç.PNG)
+![](/assets/images/discoduroç.PNG)
 
 Le damos a crear y nos pedirá que asignemos el tamaño del disco duro para la máquina, recomiendo dar en entre 20 GB y 30 GB
 
