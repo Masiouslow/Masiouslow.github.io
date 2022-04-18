@@ -82,3 +82,5 @@ Para finalizar estas configuraciones podemos darle a configuración o CTRL + S
 En el apartado de Sistema, en la sesión de Procesador podemos aumentar la cantidad de CPU destinada a la máquina, la cantidad a seleccionar depende de tu procesador, recomiendo poner el máximo dentro de la franja verde.
 
 ![](/assets/images/CPU.PNG)
+
+## Iniciar la máquina
