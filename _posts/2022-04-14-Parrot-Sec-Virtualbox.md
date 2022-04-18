@@ -35,4 +35,8 @@ Una vez alli seleciona la opcion de [Windows hosts](https://download.virtualbox.
 
 ![](/assets/images/windows host.PNG)
 
+Se te descargará el instalador del programa, ejecútalo y sigue las instrucciones
+
+![](/assets/images/Captura.PNG)
+
 ## Descargar la imagen de nuestro sistema operativo
