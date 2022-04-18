@@ -109,14 +109,19 @@ Nos preguntará como queremos gestionar las particiones, seleccionamos borrar di
 
 Después de esto seguimos rellenando los datos que nos pide, le damos a next y comprobamos que todo este según queremos, confirmamos dándole a install
 
-![](/assets/images/.PNG)
+![](/assets/images/Captura.PNG)
 
 Una vez que la instalación haya acabado reiniciamos la máquina, cuando finalice de reiniciar la apagamos por completo
 
+Entramos en configuración y vamos al la sección de almacenamiento
+
 ![](/assets/images/.PNG)
 
+Tenemos que borrar el disco que está dentro del Controlador: IDE
 
+![](/assets/images/Captura de pantalla 2022-04-18 210515.png)
 
+Una vez hecho esto ya está todo listo para disfrutar del sistema operativo y sus tantas herramientas dedicadas a la ciberseguridad.
 
 
 
