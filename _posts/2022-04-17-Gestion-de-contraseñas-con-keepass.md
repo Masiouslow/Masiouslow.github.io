@@ -1,7 +1,7 @@
 ---
 layout: single
-title: Gestión de contraseñas con keepass
-excerpt: "Generar y almacenar contraseñas seguras para todas las plataformas con keepass."
+title: Gestión de contraseñas con KeePass
+excerpt: "Generar y almacenar contraseñas seguras para todas las plataformas con KeePass."
 date: 17-04-2022
 classes: wide
 header:
