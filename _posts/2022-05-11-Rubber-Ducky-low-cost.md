@@ -5,7 +5,7 @@ excerpt: "Rubber Ducky es un dispositivo diseñado para ejecutar código automá
 date: 11-05-2022
 classes: wide
 header:
-  teaser:  masiouslow.github.io/assets/images/Rubber-Ducky-low-cost.png
+  teaser:  masiouslow.github.io/assets/images/Rubber-Ducky-low-cost/
   teaser_home_page: true
   icon: 
 categories:
