@@ -5,7 +5,7 @@ excerpt: "En este post te enseñaré a capturar un handshake de una red wifi uti
 date: 28-02-2022
 classes: wide
 header:
-  teaser: /assets/images/handshake capture_01/47-477852_this-free-icons-png-design-of-handshake-002-PhotoRoom.png
+  teaser: /assets/images/handshake capture_01/47-477852_this-free-icons-png-design-of-handshake-002-PhotoRoom(1).png
   teaser_home_page: true
   icon: 
 categories:
