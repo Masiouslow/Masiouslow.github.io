@@ -61,7 +61,7 @@ seleccionamos el modo experto
 
 Primero nos pedirá un nombre para la máquina, el tipo de sistema operativo y la versión del mismo
 
-Para el tipo y la version de SO que queremos virtualizar ponemos Linux y Ubuntu (64-bit)
+Para el tipo y la version de SO que queremos virtualizar ponemos Linux y Debian (64-bit)
 
 ![](/assets/images/tipoyversion.PNG)
 
