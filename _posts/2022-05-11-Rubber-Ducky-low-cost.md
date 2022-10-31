@@ -1,7 +1,7 @@
 ---
 layout: single
 title: Crear un Rubber Ducky low cost
-excerpt: "Rubber Ducky es un dispositivo diseñado para ejecutar código de forma automática en cualquier dispositivo. En este post voy a hacer uno con una raspberry pi pico."
+excerpt: "Rubber Ducky es un dispositivo diseñado para ejecutar código al ser conectado en cualquier dispositivo. En este post veremos como hacer uno con una raspberry pi pico."
 date: 11-05-2022
 classes: wide
 header:
