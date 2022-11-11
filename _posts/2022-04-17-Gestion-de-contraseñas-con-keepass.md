@@ -15,6 +15,9 @@ tags:
 
 
 ---
+Hoy en día ya no basta con tener una contraseña segura, si reutilizamos las contraseñas en diferentes plataformas y una de ellas es vulnerada, quedaremos expuestos ante los atacantes. Por ello necesitamos tener una contraseña segura por cada plataforma, para ello utilizaremos un gestor de contraseñas, en este caso [KeePass](https://keepass.info/download.html)
+
+## Instalación de KeePass
 
 
 
