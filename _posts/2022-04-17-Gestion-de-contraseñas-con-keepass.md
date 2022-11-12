@@ -20,7 +20,7 @@ Hoy en día ya no basta con tener una contraseña segura, si reutilizamos las co
 ## Instalación de KeePass
 En Windows podemos instalar [KeePass](https://sourceforge.net/projects/keepass/files/KeePass%201.x/1.40.1/KeePass-1.40.1-Setup.exe/download), en [linuxKeePassXC](https://keepassxc.org/) y para Android hay varias opciones, pero yo uso [KeePass2Android](https://play.google.com/store/apps/details?id=keepass2android.keepass2android), pero la elección del gestor es una decisión persona. Lo importante es que el gestor utilicé la extensión .kdbx
 
-## Archivo .KDBX
+## Archivo .KDBX ![](/assets/images/KeePass/kdbx.png)
 Los archivos .KDBX son bases datos con contraseñas generadas por los gestores de contraseñas. Almacenan una base de datos cifrada que solo se puede ver utilizando una contraseña maestra. Al momento de gestionar nuestras contraseñas es igual de importante guardar el archivo .kdbx como la contraseña maestra, porque las dos son imprescindibles para acceder a ellas.
 
 ![](/assets/images/KeePass/kdbx.png)
