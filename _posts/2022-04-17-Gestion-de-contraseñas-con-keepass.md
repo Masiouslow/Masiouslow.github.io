@@ -15,7 +15,7 @@ tags:
 
 
 ---
-Hoy en día ya no basta con tener una contraseña segura, si reutilizamos las contraseñas en diferentes plataformas y una de ellas es vulnerada, quedaremos expuestos ante los atacantes. Por ello necesitamos tener una contraseña segura por cada plataforma, para ello utilizaremos un gestor de contraseñas, en este caso [KeePass](https://keepass.info/download.html)
+Hoy en día ya no basta con tener una contraseña segura, si reutilizamos las contraseñas en diferentes plataformas y una de ellas es vulnerada, quedaremos expuestos ante los atacantes. Por ello necesitamos tener una contraseña segura por cada plataforma, para hacer esto posible utilizaremos un gestor de contraseñas, en este caso [KeePass](https://keepass.info/download.html)
 
 ## Instalación de KeePass
 En Windows podemos instalar [KeePass](https://sourceforge.net/projects/keepass/files/KeePass%201.x/1.40.1/KeePass-1.40.1-Setup.exe/download), en [linuxKeePassXC](https://keepassxc.org/) y para Android hay varias opciones, pero yo uso [KeePass2Android](https://play.google.com/store/apps/details?id=keepass2android.keepass2android), pero la elección del gestor es una decisión persona. Lo importante es que el gestor utilicé la extensión .kdbx
