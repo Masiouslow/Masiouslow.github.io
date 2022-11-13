@@ -25,6 +25,11 @@ Los archivos .KDBX son bases datos con contraseñas generadas por los gestores d
 
 ![](/assets/images/KeePass/kdbx.png)
 
+## Nueva base de datos y contraseña maestra
+
+Una vez instalado, abrimos la aplicación y creamos una nueva base de datos.
+![](/assets/images/KeePass/photo_2022-11-13_20-41-10.jpg)
+
 
 
 
