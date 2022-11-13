@@ -30,7 +30,7 @@ Los archivos .KDBX son bases datos con contraseñas generadas por los gestores d
 Una vez instalado, abrimos la aplicación y creamos una nueva base de datos.
 ![](/assets/images/KeePass/DB_img.jpg)
 
-Ahora tenemos que escoger una buena contraseña maestra, tiene que ser única, segura, pero ha de ser fácil de recordar para nosotros, si quieres más información sobre las contraseñas seguras puedes visitar esta [guía](https://www.schneier.com/blog/archives/2014/03/choosing_secure_1.html)
+Ahora tenemos que escoger una buena contraseña maestra, tiene que ser única, segura, pero ha de ser fácil de recordar para nosotros, si quieres más información sobre las contraseñas seguras puedes visitar esta [guía](https://www.schneier.com/blog/archives/2014/03/choosing_secure_1.html).
 
 ![](/assets/images/KeePass/masterpass.jpg)
 
