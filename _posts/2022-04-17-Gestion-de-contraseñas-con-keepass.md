@@ -34,6 +34,9 @@ Ahora tenemos que escoger una buena contraseña maestra, tiene que ser única, s
 
 ![](/assets/images/KeePass/masterpass.jpg)
 
+Escogemos un nombre para la base de datos.
+![](/assets/images/KeePass/NombredeDB.PNG)
+
 
 
 
