@@ -38,6 +38,8 @@ Escogemos un nombre para la base de datos y agregamos la información que necesi
 
 ![](/assets/images/KeePass/NombredeDB.PNG)
 
+## Gestionar las contraseñas
+
 Esta es la interfaz para gestionar nuestras contraseñas, aquí podemos agregar, modificar y eliminar los grupos y las entradas
 
 ![](/assets/images/KeePass/Unavezendb.PNG)
@@ -45,6 +47,8 @@ Esta es la interfaz para gestionar nuestras contraseñas, aquí podemos agregar,
 Con "Ctrl + i" podemos agregar una entrada
 
 ![image](/assets/images/KeePass/Addentry.PNG)
+
+
 
 
 
