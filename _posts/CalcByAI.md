@@ -5,7 +5,7 @@ excerpt: "En el post de hoy vamos a ver como chat gpt programa una calculadora y
 date: 20-12-2022
 classes: wide
 header:
-  teaser:   /assets/images/Rubber-Ducky-low-cost/RubberLogo.png 
+  teaser:   /assets/images/CalcByAI/calc-removebg-preview.png 
   teaser_home_page: true
   icon: 
 categories:
