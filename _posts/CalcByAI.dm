@@ -1,6 +1,6 @@
 ---
 layout: single
-title: ¿Como Programa Chat GPT una calculadora?
+title: "¿Como Programa Chat GPT una calculadora?"
 excerpt: "En el post de hoy vamos a ver como chat gpt programa una calculadora y como lo hace."
 date: 20-12-2022
 classes: wide
