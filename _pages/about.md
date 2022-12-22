@@ -4,6 +4,8 @@ permalink: /about/
 date: 2022-12-22
 ---
 
+<br>
+
 Hola a todos, mi nombre es Masiouslow y soy un entusiasta de la tecnología y el mundo digital. En este blog, voy a compartir mis conocimientos y experiencias en el área de hacking y tecnología.
 
 Siempre he estado interesado en aprender y descubrir nuevas cosas en el mundo de la tecnología y el ciberespacio, y siento que el hacking, es un campo en el que hay mucho por explorar y descubrir.
