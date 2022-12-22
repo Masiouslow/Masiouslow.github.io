@@ -9,10 +9,12 @@ header:
   teaser_home_page: true
   icon: 
 categories:
-
+ - Hardware
+ - Hacking
 
 tags:
-
+ - Bad Usb
+ 
 
 ---
 
